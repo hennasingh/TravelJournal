@@ -30,6 +30,8 @@ nav span {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding:0.8em 0;
+  border-bottom:1px solid #F5F5F5;
 }
 
 .card-image {
