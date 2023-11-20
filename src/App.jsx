@@ -1,5 +1,6 @@
 import travelData from './data'
 import TravelCard from './components/TravelCard'
+import Navbar from './components/navbar'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <section className="travel-list">
           {cards}
       </section>

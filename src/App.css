@@ -1,14 +1,35 @@
-
 body {
-  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color:#F55A5A ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:0.8em;
+  height: 40px;
+  padding:1em;
+}
+
+nav span {
+  font-size: 1rem;
+  color:#fff;
+  font-weight: 500;
+}
+
+.travel-list {
+  max-width: 800px;
+  width: 80%;
+  margin:2em auto;
 }
 
 .card{
   display: flex;
   align-items: center;
-  max-width: 800px;
   justify-content: center;
-
 }
 
 .card-image {
@@ -53,4 +74,5 @@ h1 {
 .travel-desc{
   color: #2B283A;
   margin:0;
+  font-size: 0.8rem;
 } 
